@@ -6,6 +6,16 @@
   "enabledManagers": ["gomod"],
   "packageRules": [
     {
+      "matchPackageNames": ["go"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "enabled": true
+    },
+    {
+      "matchPackageNames": ["go"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+    {
       "matchManagers": ["gomod"],
       "matchUpdateTypes": ["minor", "patch"],
       "enabled": true
