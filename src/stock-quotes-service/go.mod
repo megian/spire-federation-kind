@@ -1,6 +1,6 @@
 module stock-quotes-service
 
-go 1.18
+go 1.24
 
 require github.com/spiffe/go-spiffe/v2 v2.0.0-alpha.4
 
